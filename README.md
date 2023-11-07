@@ -11,13 +11,13 @@
 * Trabalhar com Data Grid View.
 
 ## Telas
-<img src = "C:\Users\Raque\Área de Trabalho\tela_cadastro.png">
+<https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_detalhe.png">
 <p>Essa é a tela inicial do projeto.</p>
 
 <br>
-<img src = "file:///C:/Users/Raque/%C3%81rea%20de%20Trabalho/tela_cadastro.png">
+<img src = "https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_cadastro.png">
 <p>Essa é a tela que o usuário irá digitar os dados de cadastro</p>
 
 <br>
-<img src = "file:///C:/Users/Raque/%C3%81rea%20de%20Trabalho/tela_municipio.png">
+<img src = "https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_municipio.png">
 <p>Dependendo do estado selecionado pelo usuário essa tela filtra os municípios</p>
