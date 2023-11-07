@@ -111,7 +111,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(492, 160);
+            label6.Location = new Point(472, 160);
             label6.Name = "label6";
             label6.Size = new Size(78, 20);
             label6.TabIndex = 30;
@@ -151,7 +151,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(64, 155);
+            label2.Location = new Point(64, 160);
             label2.Name = "label2";
             label2.Size = new Size(40, 20);
             label2.TabIndex = 26;
@@ -169,10 +169,10 @@
             // 
             // vMunicipio
             // 
-            vMunicipio.Location = new Point(492, 183);
+            vMunicipio.Location = new Point(465, 183);
             vMunicipio.Name = "vMunicipio";
             vMunicipio.ReadOnly = true;
-            vMunicipio.Size = new Size(81, 27);
+            vMunicipio.Size = new Size(142, 27);
             vMunicipio.TabIndex = 24;
             // 
             // vAutoria
@@ -180,7 +180,7 @@
             vAutoria.Location = new Point(376, 105);
             vAutoria.Name = "vAutoria";
             vAutoria.ReadOnly = true;
-            vAutoria.Size = new Size(198, 27);
+            vAutoria.Size = new Size(231, 27);
             vAutoria.TabIndex = 23;
             // 
             // vIndicativo
@@ -188,7 +188,7 @@
             vIndicativo.Location = new Point(376, 32);
             vIndicativo.Name = "vIndicativo";
             vIndicativo.ReadOnly = true;
-            vIndicativo.Size = new Size(198, 27);
+            vIndicativo.Size = new Size(231, 27);
             vIndicativo.TabIndex = 22;
             // 
             // vUF
@@ -196,12 +196,12 @@
             vUF.Location = new Point(375, 183);
             vUF.Name = "vUF";
             vUF.ReadOnly = true;
-            vUF.Size = new Size(85, 27);
+            vUF.Size = new Size(68, 27);
             vUF.TabIndex = 21;
             // 
             // vVara
             // 
-            vVara.Location = new Point(64, 178);
+            vVara.Location = new Point(64, 183);
             vVara.Name = "vVara";
             vVara.ReadOnly = true;
             vVara.Size = new Size(65, 27);
@@ -228,7 +228,7 @@
             // 
             // vChapa
             // 
-            vChapa.Location = new Point(197, 178);
+            vChapa.Location = new Point(197, 183);
             vChapa.Name = "vChapa";
             vChapa.ReadOnly = true;
             vChapa.Size = new Size(65, 27);
@@ -238,7 +238,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(197, 155);
+            label8.Location = new Point(197, 160);
             label8.Name = "label8";
             label8.Size = new Size(52, 20);
             label8.TabIndex = 35;

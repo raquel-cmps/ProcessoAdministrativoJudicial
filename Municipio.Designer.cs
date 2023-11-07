@@ -54,6 +54,7 @@
             dgvMunicipio.TabIndex = 3;
             dgvMunicipio.TabStop = false;
             dgvMunicipio.SelectionChanged += dgvMunicipio_SelectionChanged;
+            dgvMunicipio.DoubleClick += dgvMunicipio_DoubleClick;
             // 
             // label1
             // 

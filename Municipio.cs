@@ -91,7 +91,10 @@ namespace FFPPRAJ
             Close();
         }
 
-
-
+        private void dgvMunicipio_DoubleClick(object sender, EventArgs e)
+        {
+            cadastro.txtMunicipio.Text = vMunicipio.Text;
+            Close();
+        }
     }
 }
