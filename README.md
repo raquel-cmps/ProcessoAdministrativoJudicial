@@ -11,13 +11,14 @@
 * Trabalhar com Data Grid View.
 
 ## Telas
-<https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_detalhe.png">
-<p>Essa é a tela inicial do projeto.</p>
+### Tela inicial
+<img src = "https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_detalhe.png">
+<p>Essa é a tela inicial do projeto, na qual é possível vizualizar todos os cadastros ja feito. É possível excluir e alterar processos.</p>
 
-<br>
+### Tela Cadastro
 <img src = "https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_cadastro.png">
-<p>Essa é a tela que o usuário irá digitar os dados de cadastro</p>
+<p>Essa é a tela que o usuário irá entrar com os processos</p>
 
-<br>
+### Tela Município
 <img src = "https://github.com/raquel-cmps/Exactus-ProcessoAdministrativoJudicial/blob/main/img/tela_municipio.png">
 <p>Dependendo do estado selecionado pelo usuário essa tela filtra os municípios</p>
