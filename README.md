@@ -1,19 +1,17 @@
 # Exacus-ProcessoAdministrativoJudicial
 ### FFPPRAJ.
-<br>
 <p>Esse foi o meu primeiro projeto utilizando C#.</p>
 <P>Eu reecriei uma tela já existente no Modulo de folha do sistema da ExactusTop, porém utilizando novas tecnologias.</p>
 <p>Por conta desse projeto eu pude aprender a criar tabelas no banco de dados e realizar as integrações com o Csharp.
 
 ## Desafios
-<br>
 * Descobrir os métodos dos componentes específicos do Csharp;
 * Relacionamento entre tabelas no banco de dados;
 * Passar strings de conexão para conectar o programa com o banco;
 * Trabalhar com Data Grid View.
 
 ## Telas
-<img src = "file:///C:/Users/Raque/%C3%81rea%20de%20Trabalho/tela_detalhe.png">
+<img src = "C:\Users\Raque\Área de Trabalho\tela_cadastro.png">
 <p>Essa é a tela inicial do projeto.</p>
 
 <br>
