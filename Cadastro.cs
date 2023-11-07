@@ -24,6 +24,9 @@ namespace FFPPRAJ
         {
             InitializeComponent();
 
+            btnAlterar.Visible = false;
+            btnAlterar.Enabled = false;
+
         }
         Detalhe detalhe;
         public Cadastro(Detalhe d, string processo, string tipo, string vara, string indicativo, string autoria, string chapa, string uf, string municipio)
@@ -39,6 +42,9 @@ namespace FFPPRAJ
             txtChapa.Text = chapa;
             cbUF.Text = uf;
             txtMunicipio.Text = municipio;
+
+            btnSalvar.Visible = false;
+            btnSalvar.Enabled = false;
 
         }
 
@@ -133,7 +139,7 @@ namespace FFPPRAJ
             Banco.NovoCadastro(processo);
 
             Close();
-            
+
         }
 
 
@@ -184,5 +190,23 @@ namespace FFPPRAJ
             }
         }
 
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            Processo processo = new Processo();
+
+            processo.id_processo = Int32.Parse(txtProcesso.Text);
+            processo.tipo = cbTipo.Text;
+            processo.uf = cbUF.Text;
+            processo.municipio = txtMunicipio.Text;
+            processo.vara = Int32.Parse(txtVara.Text);
+            processo.autoria = cbAutoria.Text;
+            processo.chapa = Int32.Parse(txtChapa.Text);
+            processo.indicativo = cbIndicativo.Text;
+
+            Banco.AtualizarCadastro(processo);
+
+            Close();
+
+        }
     }
 }

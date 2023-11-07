@@ -32,6 +32,7 @@
             btnCancelar = new Button();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            btnAlterar = new Button();
             txtMunicipio = new TextBox();
             btnMunicipio = new Button();
             label14 = new Label();
@@ -102,6 +103,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.Transparent;
+            tabPage1.Controls.Add(btnAlterar);
             tabPage1.Controls.Add(txtMunicipio);
             tabPage1.Controls.Add(btnMunicipio);
             tabPage1.Controls.Add(label14);
@@ -128,6 +130,17 @@
             tabPage1.Size = new Size(1008, 493);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Cadastro";
+            // 
+            // btnAlterar
+            // 
+            btnAlterar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAlterar.Location = new Point(751, 419);
+            btnAlterar.Name = "btnAlterar";
+            btnAlterar.Size = new Size(94, 40);
+            btnAlterar.TabIndex = 8;
+            btnAlterar.Text = "Alterar";
+            btnAlterar.UseVisualStyleBackColor = true;
+            btnAlterar.Click += btnAlterar_Click;
             // 
             // txtMunicipio
             // 
@@ -475,5 +488,6 @@
         private Label label11;
         private Button btnIndiCancelar;
         private Button btnIndiSalvar;
+        private Button btnAlterar;
     }
 }

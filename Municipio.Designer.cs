@@ -50,7 +50,9 @@
             dgvMunicipio.RowTemplate.Height = 29;
             dgvMunicipio.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvMunicipio.Size = new Size(455, 435);
-            dgvMunicipio.TabIndex = 2;
+            dgvMunicipio.StandardTab = true;
+            dgvMunicipio.TabIndex = 3;
+            dgvMunicipio.TabStop = false;
             dgvMunicipio.SelectionChanged += dgvMunicipio_SelectionChanged;
             // 
             // label1
@@ -69,7 +71,8 @@
             vMunicipio.Name = "vMunicipio";
             vMunicipio.ReadOnly = true;
             vMunicipio.Size = new Size(181, 27);
-            vMunicipio.TabIndex = 33;
+            vMunicipio.TabIndex = 2;
+            vMunicipio.TabStop = false;
             // 
             // btnSalvar
             // 
