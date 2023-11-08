@@ -101,6 +101,7 @@
             btnInativar.TabIndex = 3;
             btnInativar.Text = "Inativar \r\nRegistro";
             btnInativar.UseVisualStyleBackColor = true;
+            btnInativar.Click += btnInativar_Click;
             // 
             // btnEnviar
             // 
@@ -110,6 +111,7 @@
             btnEnviar.TabIndex = 2;
             btnEnviar.Text = "Enviar/Atualizar \r\nRegistro";
             btnEnviar.UseVisualStyleBackColor = true;
+            btnEnviar.Click += btnEnviar_Click;
             // 
             // dgvEsocial
             // 
