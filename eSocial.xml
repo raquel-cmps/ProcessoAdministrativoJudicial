@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <Dados>
-        <processo></processo>
-        <tipo></tipo>
-        <uf></uf>
-        <municipio></municipio>
-        <vara></vara>
-        <autoria></autoria>
-        <chapa></chapa>
-        <indicativo></indicativo>
-    </Dados>
+<NewDataSet>
+	<Dados>
+		<processo></processo>
+		<tipo></tipo>
+		<uf></uf>
+		<municipio></municipio>
+		<vara></vara>
+		<autoria></autoria>
+		<chapa></chapa>
+		<indicativo></indicativo>
+	</Dados>
+</NewDataSet>    
+    

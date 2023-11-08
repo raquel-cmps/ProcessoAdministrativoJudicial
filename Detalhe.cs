@@ -13,15 +13,16 @@ namespace FFPPRAJ
 {
     public partial class Detalhe : Form
     {
+        DataSet ds;
+        DataTable dt;
         public Detalhe()
         {
             InitializeComponent();
         }
 
-
         private void Detalhe_Load(object sender, EventArgs e)
         {
-            dgvDetalhe.DataSource = Banco.ObterCadastros();
+            dgvDetalhe.DataSource = Banco.ObterCadastros(); //atualizando o dgvDetalhe
 
         }
 
@@ -71,6 +72,13 @@ namespace FFPPRAJ
             Cadastro cadastro = new Cadastro(this, vProcesso.Text, vTipo.Text, vVara.Text, vIndicativo.Text, vAutoria.Text, vChapa.Text, vUF.Text, vMunicipio.Text);
             cadastro.ShowDialog();
             dgvDetalhe.DataSource = Banco.ObterCadastros();
+        }
+
+        //gerear xml com os dados do dgv
+        private void btnEsocial_Click(object sender, EventArgs e)
+        {
+            Esocial esocial = new Esocial(vProcesso.Text, vTipo.Text);
+            esocial.ShowDialog();
         }
     }
 }

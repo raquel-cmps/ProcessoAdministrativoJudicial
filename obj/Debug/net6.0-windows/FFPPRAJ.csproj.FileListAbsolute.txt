@@ -53,3 +53,4 @@ D:\VisualStudioProject\Csharp\FFPPRAJ\obj\Debug\net6.0-windows\FFPPRAJ.Cadastro.
 D:\VisualStudioProject\Csharp\FFPPRAJ\obj\Debug\net6.0-windows\FFPPRAJ.Detalhe.resources
 D:\VisualStudioProject\Csharp\FFPPRAJ\obj\Debug\net6.0-windows\FFPPRAJ.Properties.Resources.resources
 D:\VisualStudioProject\Csharp\FFPPRAJ\obj\Debug\net6.0-windows\FFPPRAJ.Municipio.resources
+D:\VisualStudioProject\Csharp\FFPPRAJ\obj\Debug\net6.0-windows\FFPPRAJ.Esocial.resources

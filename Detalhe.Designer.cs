@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dgvDetalhe = new DataGridView();
             label7 = new Label();
             vProcesso = new TextBox();
@@ -48,6 +48,7 @@
             btnNovoCadastro = new Button();
             vChapa = new TextBox();
             label8 = new Label();
+            btnEsocial = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDetalhe).BeginInit();
             SuspendLayout();
             // 
@@ -55,14 +56,14 @@
             // 
             dgvDetalhe.AllowUserToAddRows = false;
             dgvDetalhe.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Control;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgvDetalhe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Control;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvDetalhe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvDetalhe.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDetalhe.EnableHeadersVisualStyles = false;
             dgvDetalhe.Location = new Point(12, 281);
@@ -244,12 +245,24 @@
             label8.TabIndex = 35;
             label8.Text = "Chapa";
             // 
+            // btnEsocial
+            // 
+            btnEsocial.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnEsocial.Location = new Point(816, 219);
+            btnEsocial.Name = "btnEsocial";
+            btnEsocial.Size = new Size(103, 53);
+            btnEsocial.TabIndex = 36;
+            btnEsocial.Text = "eSocial";
+            btnEsocial.UseVisualStyleBackColor = true;
+            btnEsocial.Click += btnEsocial_Click;
+            // 
             // Detalhe
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(1051, 564);
+            Controls.Add(btnEsocial);
             Controls.Add(label8);
             Controls.Add(vChapa);
             Controls.Add(label7);
@@ -297,5 +310,6 @@
         public TextBox vProcesso;
         private TextBox vChapa;
         private Label label8;
+        private Button btnEsocial;
     }
 }
