@@ -23,7 +23,7 @@ namespace FFPPRAJ
         public Cadastro()
         {
             InitializeComponent();
-
+            
             btnAlterar.Visible = false;
             btnAlterar.Enabled = false;
 

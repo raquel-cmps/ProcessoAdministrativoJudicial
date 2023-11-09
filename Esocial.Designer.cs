@@ -87,7 +87,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Em Tramitação", "Erro", "Evento Duplicado", "Pendente de Tramitação no REX", "Pendente de Tramitação no Top", "Registro Inativado pelo Usuário", "Registro Inativado pelo Usuário", "Tranmitida (com Recibo) " });
+            comboBox1.Items.AddRange(new object[] { "Em Tramitação", "Erro", "Evento Duplicado", "Pendente de Tramitação no REX", "Pendente de Tramitação no Top", "Registro Inativado pelo Usuário", "Registro Inativado pelo Usuário", "Trasmitida (com Recibo) " });
             comboBox1.Location = new Point(158, 157);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(228, 28);
