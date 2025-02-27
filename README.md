@@ -12,7 +12,7 @@
 
 ## Telas
 ### Tela inicial
-![telaInicial](ProcessoAdministrativoJudicial/blob/refactoring/image/tela_cadastro.png)
+![ProcessoAdministrativoJudicial/blob/refactoring/image/tela_cadastro.png](https://github.com/raquel-cmps/ProcessoAdministrativoJudicial/blob/refactoring/image/tela_cadastro.png))
 <p>Essa é a tela inicial do projeto, na qual é possível vizualizar todos os cadastros ja feito. É possível excluir e alterar processos.</p>
 <br>
 
