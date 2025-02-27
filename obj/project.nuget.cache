@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+KM+FKaLOQijsgxQB7nVe6aHFTBUDfCVQ74+bJ2WQyFQx4jDlkw+btkhOlmTE23TxQQ6ib+t1yaGnxTLUzcVuQ==",
+  "dgSpecHash": "5i8ZaCIwzGg=",
   "success": true,
-  "projectFilePath": "D:\\VisualStudioProject\\Csharp\\FFPPRAJ\\FFPPRAJ.csproj",
+  "projectFilePath": "D:\\estudos\\Faculdade\\boasPraticas\\ProcessoAdministrativoJudicial\\FFPPRAJ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raque\\.nuget\\packages\\devexpress.data\\23.1.6\\devexpress.data.23.1.6.nupkg.sha512",
     "C:\\Users\\Raque\\.nuget\\packages\\devexpress.xpo\\23.1.6\\devexpress.xpo.23.1.6.nupkg.sha512",

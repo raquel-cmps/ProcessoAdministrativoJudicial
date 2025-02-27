@@ -1,4 +1,5 @@
-﻿namespace FFPPRAJ
+﻿using FFPPRAJ.Models;
+namespace FFPPRAJ
 {
     partial class Cadastro
     {
